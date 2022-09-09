@@ -1,0 +1,140 @@
+body{
+
+    background-color: #E5E5E5;;
+}
+
+h1{
+    text-align: center;
+    color: #0C0923;
+    font-weight: normal;
+    font-size: 40px;
+    font-family: impact;
+    text-transform: uppercase;
+    margin: 0px;
+}
+
+h2{
+
+    text-align: center;
+    color: #0C0923;
+    font-weight: normal;
+    font-size: 20px;
+    font-family: verdana;
+    font-style: impact;
+    font-weight: bold;
+    text-transform: uppercase;
+    margin: 0.33px;
+}
+
+.alura{
+
+   width: 10%;
+   float: left;
+   position: relative;
+   left: 300px;
+
+}
+
+.cesar{
+   width: 10%;
+   float: right; 
+   position: relative;
+   right: 280px;
+   top: 10px;
+}
+
+header{
+    padding: 0  0 50px;
+
+}
+
+main{
+
+    width: 1000px;
+    position: relative;
+    margin: 0 auto;
+}   
+
+.section-desencriptar{
+
+    position: absolute;
+    top: 0px;
+    right: 0px;
+}
+
+
+.texto-encriptado, .texto-desencriptado{
+    border-color: #0C0923;
+    border-width: 3px;
+    border-radius: 10px;
+    text-align: center;
+}
+
+.texto-desencriptado{
+
+    background-image: url(/Imagenes/Muñeco.png);
+    background-repeat: no-repeat;
+    background-position-x: center;
+    background-position-y: center;
+
+}
+
+
+p{
+
+    margin-left: 80px;
+
+}
+
+label{
+
+    color: #0C0923;
+    display: block;
+    font-size: 20px;
+    margin-top: 10px;
+    margin-left: 100px;
+    margin-bottom: 10px;
+    
+}
+
+.encriptado{
+
+    margin-top: 50px;
+    margin-bottom: 50px;
+    width: 40%;
+    height: 300px;
+    border-radius: 10px;
+    opacity: 0.3;
+ 
+}
+
+#boton-encriptar, #boton-desencriptar, #copiar{
+   
+    height: 50px;
+    width: 150px;
+    font-size: 24px;
+    margin: 10px;
+    background-color: #0C0923;
+    border: 2px solid darkblue;
+    color: white;
+    border-radius: 10px
+
+}
+
+#boton-encriptar{
+
+    margin-left: 35px;
+}
+
+#copiar{
+
+    margin-left: 125px;
+
+}
+
+
+
+
+
+
+
