@@ -92,6 +92,7 @@ function bCopiar(){
     textoDesencriptado.select()
     navigator.clipboard.writeText(textoDesencriptado.value)
     textoDesencriptado.value = ""
+    textoDesencriptado.style.backgroundImage = "url(/Imagenes/Muñeco.png)"
 }
 
 //funcionalidad del boton copiar 
